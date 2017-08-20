@@ -1,23 +1,21 @@
 .h1 { 
     background-color: lightgray;
-    width: 90%;
+    width: 920px;
     height: 100px;
     position: relative;
-    left: 30px; 
-   padding: 20px
-
-
+    margin: 0 auto;
+    padding: 20px; 
 }
+   
 
 
 .about {
     background-color: gray;
     position: relative;
-    float: left;
-    left: 30px;
-    width: 90%;
+    width: 920px;
     height: 600px;
     padding: 20px;
+    margin: 0 auto;
 }
 
 body {
@@ -60,8 +58,8 @@ footer {
     font-style: bold;
     padding: 20px;
     background-color: gray;
-    width: 90%;
-    left: 30px;
+    width: 920px;
+    margin: 0 auto;
     top: 10px;
 }
 .bitcoin {
@@ -96,3 +94,47 @@ footer {
 .btcgroup1 {
     float: left; 
 }
+@media only screen and (max-width: 980px) {
+    .h1, .about, footer {
+       width: 700px}
+    .bitcoin2 { clear: both;
+   left: -0px;    
+    top: 10px;}
+    .about {height: 1200px}
+    .connect { top: -500px}
+    
+
+    }
+    @media only screen and (max-width: 768px) {
+      .h1, .about, footer {
+          width: 600px
+      }
+      .about {height: 800px}
+        
+        .btcgroup2 {float: right;
+                    top:-515px}
+        .connect {clear: both;
+        right:400px}
+        footer {top:-450px}
+       
+        }
+     @media only screen and (max-width: 640px) {
+            .h1, .about, footer {
+                width: 450px
+            }
+            .btcgroup2{float:left;
+                top: 20px;
+                
+            }
+           
+                 .about {height: 1400px}
+            footer {clear:both;
+            top:0px}
+            .connect{right:0px;
+            float:left;
+        top:40px}
+        .pagelinks {clear: both;
+        float: left}
+        .h1 {height: 150px}
+
+        }
