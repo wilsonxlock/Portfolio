@@ -8,10 +8,7 @@
 
 
 }
-h2 {
-    position: relative;
-    left: 10px;
-}
+
 
 .about {
     background-color: gray;
@@ -19,34 +16,22 @@ h2 {
     float: left;
     left: 30px;
     width: 90%;
-    height: 400px;
+    height: 600px;
     padding: 20px;
 }
-.about1 { position: relative;
-    float: left;
-    width: 300px;
-    padding: 0px 30px;
-    font-size: 20;
-    bottom: 20px;
-    
-}
+
 body {
     background-color: white;
 }
-.pic {
-    border-style: solid;
-    border-width: 10px;
-    border-color: black;
-    position: relative;
-    float: left;
-    }
+
 .connect {
     position: relative;
     float: right;
     padding: 30px;
     border-style: dashed;
     border-color: black;
-    right: 50px;
+    right: 100px;
+    bottom: 150px;
 }
 .about2 {
     position: relative;
@@ -78,4 +63,34 @@ footer {
     width: 90%;
     left: 30px;
     top: 10px;
+}
+.bitcoin {
+    position: relative;
+    float:left;
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+    font-style: bold;
+    font-size: 20;
+}
+.bitcoin2 {
+    position: relative;
+    float:right;
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+    left: 50px;
+    font-style: bold;
+    font-size: 20;
+  
+}
+
+.btcgroup2 {
+    position: relative;
+    float: left; 
+    clear: both;
+    top: 20px;
+}
+.btcgroup1 {
+    float: left; 
 }
