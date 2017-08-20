@@ -1,0 +1,17 @@
+h1 { 
+    background-color: lightgray;
+}
+.about {
+    background-color: gray;
+    position: relative;
+    left: 30px;
+    width: 960px;
+
+
+}
+.about1 {
+    
+}
+body {
+    background-color: goldenrod;
+}
